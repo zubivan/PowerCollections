@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections", "PowerCollections\PowerCollections.csproj", "{5821977D-AC2C-4912-BCD0-6E6B1A756167}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections.Pcl", "PowerCollections.Pcl\PowerCollections.Pcl.csproj", "{4FE07049-9F3A-42A4-8105-B1A72FE15C67}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections.NetStandard", "PowerCollections.NetStandard\PowerCollections.NetStandard.csproj", "{85298DE2-90FA-4B9D-92B7-5B1B407A594F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections", "PowerCollections\PowerCollections.csproj", "{85298DE2-90FA-4B9D-92B7-5B1B407A594F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +9,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FE07049-9F3A-42A4-8105-B1A72FE15C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FE07049-9F3A-42A4-8105-B1A72FE15C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FE07049-9F3A-42A4-8105-B1A72FE15C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FE07049-9F3A-42A4-8105-B1A72FE15C67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85298DE2-90FA-4B9D-92B7-5B1B407A594F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85298DE2-90FA-4B9D-92B7-5B1B407A594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85298DE2-90FA-4B9D-92B7-5B1B407A594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
