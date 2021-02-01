@@ -17,5 +17,6 @@
     <PackageProjectUrl>https://archive.codeplex.com/?p=powercollections</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zubivan/PowerCollections</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Moved Power Collections to github and added netstandard 2.0 compatibility</PackageReleaseNotes>
   </PropertyGroup>
 </Project>
