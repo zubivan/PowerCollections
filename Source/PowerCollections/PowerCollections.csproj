@@ -10,4 +10,12 @@
     <Company>Wintellect</Company>
     <Copyright>Copyright (c) 2004-2005, Wintellect</Copyright>
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>CodePort.Wintellect.PowerCollections</PackageId>
+    <Authors>Wintellect</Authors>
+    <Description>Welcome to Power Collections, A Community Project to Develop the Best Public License type safe Collection Classes for .NET. Power Collections makes heavy use of .NET Generics. The goal of the project is to provide generic collection classes that are not available in the .NET framework. Some of the collections included are the Deque, MultiDictionary, Bag, OrderedBag, OrderedDictionary, Set, OrderedSet, and OrderedMultiDictionary. This fork introduces .netstandard compatibility to the library.</Description>
+    <PackageProjectUrl>https://archive.codeplex.com/?p=powercollections</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zubivan/PowerCollections</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
 </Project>
