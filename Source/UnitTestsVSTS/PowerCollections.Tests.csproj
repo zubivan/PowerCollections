@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp31</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Wintellect.PowerCollections.Tests</RootNamespace>
+    <AssemblyName>PowerCollections.Tests</AssemblyName>
+    <Company>Wintellect</Company>
+    <Copyright>Copyright (c) 2004-2005, Wintellect</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PowerCollections\PowerCollections.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+  </ItemGroup>
+</Project>

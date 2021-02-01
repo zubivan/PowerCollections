@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections", "PowerCollections\PowerCollections.csproj", "{85298DE2-90FA-4B9D-92B7-5B1B407A594F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wintellect.PowerCollections.Tests", "UnitTestsVSTS\Wintellect.PowerCollections.Tests.csproj", "{CCCE4A05-6914-48E9-B232-A8827BCDE681}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerCollections.Tests", "UnitTestsVSTS\PowerCollections.Tests.csproj", "{CCCE4A05-6914-48E9-B232-A8827BCDE681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
