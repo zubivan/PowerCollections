@@ -716,7 +716,7 @@ namespace Wintellect.PowerCollections.Tests
         [TestMethod, ExpectedException(typeof(InvalidOperationException))]
         public void InconsistentComparisons2()
         {
-            Bag<string> bag1 = new Bag<string>(new string[] { "foo", "Bar" }, StringComparer.CurrentCulture);
+            Bag<string> bag1 = new Bag<string>(new string[] { "foo", "Bar" }, StringComparer.Ordinal);
             Bag<string> bag2 = new Bag<string>(new string[] { "bada", "bing" }, StringComparer.InvariantCulture);
             bag1.Intersection(bag2);
         }

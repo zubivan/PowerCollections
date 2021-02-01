@@ -853,7 +853,7 @@ namespace Wintellect.PowerCollections.Tests
         [TestMethod, ExpectedException(typeof(InvalidOperationException))]
         public void InconsistentComparisons3()
         {
-            OrderedBag<string> bag1 = new OrderedBag<string>(new string[] { "foo", "Bar" }, StringComparer.CurrentCulture);
+            OrderedBag<string> bag1 = new OrderedBag<string>(new string[] { "foo", "Bar" }, StringComparer.Ordinal);
             OrderedBag<string> bag2 = new OrderedBag<string>(new string[] { "bada", "bing" }, StringComparer.InvariantCulture);
             bag1.Intersection(bag2);
         }

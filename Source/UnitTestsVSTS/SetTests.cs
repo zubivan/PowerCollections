@@ -867,7 +867,7 @@ namespace Wintellect.PowerCollections.Tests
         [TestMethod, ExpectedException(typeof(InvalidOperationException))]
         public void InconsistentComparisons2()
         {
-            Set<string> set1 = new Set<string>(new string[] { "foo", "Bar" }, StringComparer.CurrentCulture);
+            Set<string> set1 = new Set<string>(new string[] { "foo", "Bar" }, StringComparer.Ordinal);
             Set<string> set2 = new Set<string>(new string[] { "bada", "bing" }, StringComparer.InvariantCulture);
             set1.Intersection(set2);
         }
