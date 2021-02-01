@@ -25,3 +25,12 @@ jobs:
       run: dotnet build --no-restore ./Source/PowerCollections.sln
     - name: Test
       run: dotnet test --no-build --verbosity normal ./Source/PowerCollections.sln
+    - name: Pack
+      if: matrix.os == 'ubuntu-latest'
+      run: dotnet pack -v normal -c Release --no-restore --include-symbols --include-source -p:PackageVersion=$GITHUB_RUN_ID ./Source/PowerCollections.sln
+    - name: Upload Artifact
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v2
+      with:
+        name: nupkg
+        path: ./Source/PowerCollections/bin/Release/*.nupkg
