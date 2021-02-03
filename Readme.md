@@ -1,3 +1,7 @@
+<a href="https://www.nuget.org/packages/CodePort.Wintellect.PowerCollections" alt="Nuget">
+    <img src="https://img.shields.io/nuget/v/CodePort.Wintellect.PowerCollections" />
+</a>
+
 # Repository description
 
 Port of Wintellect's PowerCollections package originally published on codeplex. This repository converts the original .net 3.5 library to netstandard 2.0, allowing code dependant on it to migrate to newer versions of .NET. 
