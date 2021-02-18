@@ -4,8 +4,9 @@
 
 # Repository description
 
-Port of Wintellect's PowerCollections package originally published on codeplex. This repository converts the original .net 3.5 library to netstandard 2.0, allowing code dependant on it to migrate to newer versions of .NET. 
+Port of Wintellect's PowerCollections package originally published on codeplex. This repository converts the original .net 3.5 library to netstandard 2.0, allowing code dependant on it to migrate to newer versions of .NET.
 
+Additionally I introduced verification builds for Windows, Linux and MacOs to make sure the library correctly runs crossplatform.
 
 # Original description
 
